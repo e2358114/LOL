@@ -48,7 +48,7 @@
 
     iframe {
       width: 100%;
-      height: 300px;
+      aspect-ratio: 16 / 9;
       border: none;
       border-radius: 10px;
       margin-top: 10px;
@@ -59,6 +59,7 @@
   <h1>LOL レーン別おすすめチャンピオン</h1>
   <p>初心者にもおすすめなチャンピオンとその特徴・コンボ動画を紹介します。</p>
   <img src="https://lol-times.com/wp-content/uploads/2023/12/image-44-12-1024x537.jpg" alt="League of Legends イメージ" class="home-image">
+  
   <div class="lane-buttons">
     <button onclick="showChampions('Top')">Top</button>
     <button onclick="showChampions('Jungle')">Jungle</button>
@@ -68,6 +69,7 @@
   </div>
 
   <div id="championContainer"></div>
+
 
   <script>
     const champions = {
