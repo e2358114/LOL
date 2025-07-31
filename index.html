@@ -59,7 +59,7 @@
   <h1>LOL レーン別おすすめチャンピオン</h1>
   <p>初心者にもおすすめなチャンピオンとその特徴・コンボ動画を紹介します。</p>
   <img src="https://lol-times.com/wp-content/uploads/2023/12/image-44-12-1024x537.jpg" alt="League of Legends イメージ" class="home-image">
-  
+
   <div class="lane-buttons">
     <button onclick="showChampions('Top')">Top</button>
     <button onclick="showChampions('Jungle')">Jungle</button>
@@ -70,7 +70,6 @@
 
   <div id="championContainer"></div>
 
-
   <script>
     const champions = {
       Top: [
@@ -79,36 +78,35 @@
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
           desc: "ダリウスはサステインと高火力を兼ね備えたブルーザーです。",
           skill: "出血効果とRによる確定処刑が強力。",
-          video:"https://youtu.be/LqEVrYEw-hc?si=jeP4mpdkPzNoaCFK"
+          video: "https://www.youtube.com/watch?v=LqEVrYEw-hc"
         },
         {
           name: "Shen",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Shen_0.jpg",
           desc: "シェンはマップ全体を支援できるタンクです。",
           skill: "Rによるグローバル支援、Wのダメージ回避。",
-          video: "https://youtu.be/xIS7PkS5vdE?si=6IxI4Wi529P1-P5O"
+          video: "https://www.youtube.com/watch?v=xIS7PkS5vdE"
         },
         {
           name: "Fiora",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_0.jpg",
           desc: "1v1に特化したデュエリスト。",
           skill: "パリィとトゥルーダメージによる対タンク性能。",
-          video: "https://youtu.be/14eZXrUYtU0?si=2QhVglLNx29Czusb"
-         
+          video: "https://www.youtube.com/watch?v=14eZXrUYtU0"
         },
         {
           name: "Garen",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
           desc: "超初心者向けのシンプル戦士。",
           skill: "パッシブ回復、サイレンス＋R確定ダメージ。",
-          video: "https://youtu.be/0Si8M3du72g?si=0vTksQllJFxR2ebE"
+          video: "https://www.youtube.com/watch?v=0Si8M3du72g"
         },
         {
           name: "Camille",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
           desc: "高機動のスプリットプッシャー。",
           skill: "Eの壁キックとUltによる1v1封殺。",
-          video: "https://youtu.be/1UT6GrEgBUA?si=46h588QcRMTbPsa8"
+          video: "https://www.youtube.com/watch?v=1UT6GrEgBUA"
         }
       ],
       Jungle: [
@@ -117,35 +115,35 @@
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/LeeSin_0.jpg",
           desc: "モビリティの高いプレイメーカー。",
           skill: "Q→W→Rのインセクが魅力。",
-          video: "https://youtu.be/9gQ9PbkrUWg?si=EmJlvYbojYX8p5w1"
+          video: "https://www.youtube.com/watch?v=9gQ9PbkrUWg"
         },
         {
           name: "Amumu",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg",
           desc: "集団戦の強力なイニシエーター。",
           skill: "Rによる広範囲スタン。",
-          video: "https://youtu.be/pAC9C08fmXI?si=yqmcYCsJdMB57id_"
+          video: "https://www.youtube.com/watch?v=pAC9C08fmXI"
         },
         {
           name: "Nidalee",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nidalee_0.jpg",
           desc: "ポーク＆高スキルキャップ型ジャングラー。",
           skill: "槍ヒット後の豹形態で仕留める。",
-          video: "https://youtu.be/6Iip7J73WCo?si=uKBE3zf3DOaAJpy_"
+          video: "https://www.youtube.com/watch?v=6Iip7J73WCo"
         },
         {
           name: "Warwick",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg",
           desc: "初心者向けのサステイン型。",
           skill: "パッシブとWで対象を追い詰める。",
-          video: "https://youtu.be/eDWV0Dstz-c?si=_tSASZLsZhxI3ZUA"
+          video: "https://www.youtube.com/watch?v=eDWV0Dstz-c"
         },
         {
           name: "Kha'Zix",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Khazix_0.jpg",
           desc: "孤立キル特化のアサシン。",
           skill: "W進化でポーク、Rで奇襲。",
-          video: "https://youtu.be/A5kFIpPfP2M?si=jnok_OqbVKizdGAa"
+          video: "https://www.youtube.com/watch?v=A5kFIpPfP2M"
         }
       ],
       Mid: [
@@ -154,35 +152,35 @@
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
           desc: "バースト＋機動力を持つメイジアサシン。",
           skill: "チャームからのコンボが非常に強力。",
-          video: "https://youtu.be/vdkMI6qq-ro?si=VR2YWO9bWoEaskV1"
+          video: "https://www.youtube.com/watch?v=vdkMI6qq-ro"
         },
         {
           name: "Zed",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg",
           desc: "影を使って一瞬で敵を倒すアサシン。",
           skill: "影コンボとRのタイミングが鍵。",
-          video: "https://youtu.be/LxBQftKk0Jo?si=DDKDyD0LYRXRyrHf"
+          video: "https://www.youtube.com/watch?v=LxBQftKk0Jo"
         },
         {
           name: "Yasuo",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg",
           desc: "高スキルキャップの近接キャリー。",
           skill: "風壁・竜巻・多段ダッシュで華麗に戦う。",
-          video: "https://youtu.be/bIQBARbcd-Y?si=yzwcZ_8grBCpZ0qp"
+          video: "https://www.youtube.com/watch?v=bIQBARbcd-Y"
         },
         {
           name: "Annie",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg",
           desc: "操作が簡単でバーストも高い。",
           skill: "スタン＋ティバーズ召喚が強烈。",
-          video: "https://youtu.be/RBciQx_2wCg?si=qAB-9lwxUAygD0O8"
+          video: "https://www.youtube.com/watch?v=RBciQx_2wCg"
         },
         {
           name: "LeBlanc",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leblanc_0.jpg",
           desc: "瞬間火力とフェイントが持ち味のアサシン。",
           skill: "W→QRの瞬殺コンボ。",
-          video: "https://youtu.be/fJkPe-61Ntk?si=VtcXNU9cifuwzs1T"
+          video: "https://www.youtube.com/watch?v=fJkPe-61Ntk"
         }
       ],
       ADC: [
@@ -191,35 +189,35 @@
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
           desc: "レイトゲームで爆発力を持つADC。",
           skill: "パッシブで暴走、WとRの射程も優秀。",
-          video: "https://youtu.be/g9c9herR_z8?si=LDIpe51efuHfFG0f"
+          video: "https://www.youtube.com/watch?v=g9c9herR_z8"
         },
         {
           name: "Ezreal",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
           desc: "安全な位置からのスキルポークが魅力。",
           skill: "Eで位置取り、Qで連続攻撃。",
-          video: "https://youtu.be/QJG--aENm10?si=92_hl7xXRJGMhopJ"
+          video: "https://www.youtube.com/watch?v=QJG--aENm10"
         },
         {
           name: "Kai'Sa",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kaisa_0.jpg",
           desc: "アグレッシブなインナージャンプ系ADC。",
           skill: "Eの透明化、Rで突撃が強力。",
-          video: "https://youtu.be/aICBd_sRv7Q?si=9b4xaCBWJd5KMSOG"
+          video: "https://www.youtube.com/watch?v=aICBd_sRv7Q"
         },
         {
           name: "Caitlyn",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
           desc: "超射程のポーク＋設置型罠ADC。",
           skill: "罠→Q→Rのコンボで安全に削る。",
-          video: "https://youtu.be/3Vvq12tj6sI?si=Qz3bio50XNUscg4Yk"
+          video: "https://www.youtube.com/watch?v=3Vvq12tj6sI"
         },
         {
           name: "Tristana",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Tristana_0.jpg",
           desc: "パッシブで射程が伸びる、爆発力ADC。",
           skill: "W→E→Rの即バースト。",
-          video: "https://youtu.be/YceuGc1AnGg?si=1cjZdW-QS5qUqwnK"
+          video: "https://www.youtube.com/watch?v=YceuGc1AnGg"
         }
       ],
       Support: [
@@ -228,35 +226,35 @@
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
           desc: "フック・ランタン・拘束の万能サポート。",
           skill: "Qフック→E→Rでイニシエート。",
-          video: "https://youtu.be/ijXK-__W728?si=Mc-gJL44iyUNEEmV"
+          video: "https://www.youtube.com/watch?v=ijXK-__W728"
         },
         {
           name: "Leona",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_0.jpg",
           desc: "高CCと耐久力を備えたタンクサポート。",
           skill: "Eで突撃→Q→Rで長時間スタン。",
-          video: "https://youtu.be/IP1HkrY8Sb4?si=LzigQ0LN3isnrJso"
+          video: "https://www.youtube.com/watch?v=IP1HkrY8Sb4"
         },
         {
           name: "Lulu",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lulu_0.jpg",
           desc: "バフ・シールド・ノックアップの万能系。",
           skill: "E＋WでADCを徹底サポート。",
-          video: "https://youtu.be/k8UXyG3fXFA?si=MXM_1kZh9zo7_4TS"
+          video: "https://www.youtube.com/watch?v=k8UXyG3fXFA"
         },
         {
           name: "Nami",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nami_0.jpg",
           desc: "ヒールとCCを兼ねる万能サポート。",
           skill: "Q→E→Rでイニシエート支援。",
-          video: "https://youtu.be/wtxQYVNvR7k?si=aegSIVQD3e3kBoSa"
+          video: "https://www.youtube.com/watch?v=wtxQYVNvR7k"
         },
         {
           name: "Blitzcrank",
           img: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg",
           desc: "Qの引っ張りとRのAoEサイレンスが脅威。",
           skill: "Q→E→Rの瞬間イニシエート。",
-          video: "https://youtu.be/mreAfLKjO6s?si=E42_sKAfk48m6bmQ"
+          video: "https://www.youtube.com/watch?v=mreAfLKjO6s"
         }
       ]
     };
@@ -265,6 +263,7 @@
       const container = document.getElementById("championContainer");
       container.innerHTML = "";
       champions[lane].forEach(champ => {
+        const embedUrl = champ.video.replace("watch?v=", "embed/");
         const div = document.createElement("div");
         div.className = "champion-card";
         div.innerHTML = `
@@ -272,14 +271,19 @@
           <img src="${champ.img}" alt="${champ.name}">
           <p><strong>特徴:</strong> ${champ.desc}</p>
           <p><strong>スキル説明:</strong> ${champ.skill}</p>
-          <iframe src="${champ.video}" allowfullscreen></iframe>
+          <iframe 
+            src="${embedUrl}" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
         `;
         container.appendChild(div);
       });
     }
   </script>
-<footer style="margin-top: 40px; color: #aaa; font-size: 14px;">
-  © 2025 作成者: Yuji Noguchi
-</footer>
+
+  <footer style="margin-top: 40px; color: #aaa; font-size: 14px;">
+    © 2025 作成者: Yuji Noguchi
+  </footer>
 </body>
 </html>
